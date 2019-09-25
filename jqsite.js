@@ -11,7 +11,7 @@ $(document).ready ( function () {
 		$("#animator").html("watch it go!") 
 		
 		for(var i = 1; i<20; i++) {
-			caterpillerBody.animate( {width: '100px'} , 'fast').animate({width: '50px', 'margin-left': 50*i+'px'}, 'fast');
+			caterpillarBody.animate( {width: '100px'} , 'fast').animate({width: '50px', 'margin-left': 50*i+'px'}, 'fast');
 		} 
 		
 		caterpillarBody.animate({width: '100px'}, 'slow').animate(
