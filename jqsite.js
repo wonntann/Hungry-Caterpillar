@@ -18,7 +18,7 @@ $(document).ready ( function () {
 			{width: '50px', 'margin-left': '1000px'}, 'slow', 
 			
 			function() {
-				caterpillarBody.css( {'margin-left':"0px".width: '50px'} ); 
+				caterpillarBody.css( {'margin-left':"0px", width: '50px'} ); 
 				$('#animator').html('Animate (1)');
 			}
 			);
