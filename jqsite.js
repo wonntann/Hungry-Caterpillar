@@ -8,7 +8,7 @@ $(document).ready ( function () {
 	//animate 
 	function animate() {
 	
-		$("#animator").html("watch it go!") 
+		$("#animator").html("watch it go!");
 		
 		for(var i = 1; i<20; i++) {
 			caterpillarBody.animate( {width: '100px'} , 'fast').animate({width: '50px', 'margin-left': 50*i+'px'}, 'fast');
