@@ -22,9 +22,6 @@ $(document).ready ( function () {
 				$('#animator').html('Animate (1)');
 			}
 			);
-			
-	
-	)
 	
 	//reset caterpillar
 	function reset() {
