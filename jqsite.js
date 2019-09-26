@@ -24,7 +24,7 @@ $(document).ready ( function () {
 			);
 			
 	
-	}
+	)
 	
 	//reset caterpillar
 	function reset() {
