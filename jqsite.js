@@ -44,12 +44,12 @@ $(document).ready ( function () {
 	}
 	
 	//set up buttons
-	$("animator").click(function() { animate(); });
+	$("#animator").click(function() { animate(); });
 	
-	$("reset").click(function() { reset(); });
+	$("#reset").click(function() { reset(); });
 	
-	$("fader").click(function() { fadeCaterpillar(); });
+	$("#fader").click(function() { fadeCaterpillar(); });
 	
-	$("grow").click(function() { grow(); });
+	$("#grow").click(function() { grow(); });
 	
 });
