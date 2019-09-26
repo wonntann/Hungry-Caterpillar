@@ -46,7 +46,5 @@ $(document).ready ( function () {
 	$("#reset").click(function() { reset(); });
 	
 	$("#fader").click(function() { fadeCaterpillar(); });
-	
+	  
 	$("#grow").click(function() { grow(); });
-	
-});
