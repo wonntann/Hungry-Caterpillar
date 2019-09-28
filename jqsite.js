@@ -37,7 +37,7 @@ $(document).ready ( function () {
 	
 	//grow caterpillar 
 	function grow(){
-			caterpillarBody.after(segment); 
+	caterpillarBody.after(segment); 
 	}
 	
 	//set up buttons
